@@ -17,9 +17,9 @@ filter = filters["Flower"]
 ## Running the Scraper
 After picking the filter, run all of the code blocks to scrape the menus. 
 
-The main loop under code block [4] takes around a minute to run and gather the data.
+The main loop under code block [4] takes around a minute to run and gather the data, so be mindful.
 
 ## Results 
-Results are stored under the logs folder. The destination can be chaged by chaning the ```logs_destination``` variable found under the filter variable.
+Results are stored under the logs folder. The destination can be chaged by editing the ```logs_destination``` variable found under the filter variable.
 
 If running this from Google Colab, logs will be stored under a folder in your google drive.
