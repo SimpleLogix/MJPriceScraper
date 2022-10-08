@@ -23,3 +23,17 @@ The main loop under code block [4] takes around a minute to run and gather the d
 Results are stored under the logs folder. The destination can be chaged by editing the ```logs_destination``` variable found under the filter variable.
 
 If running this from Google Colab, logs will be stored under a folder in your google drive.
+
+## Roadmap
+
+- [x] Scrape products data
+- [ ] Add deals from dispo home blurb
+- [ ] Clean names & Categorize (Wax, Sugar, Kief, Crumble, ...)
+- [ ] Add 1g version of .5g products
+
+- [ ] Add custom function for Sanctuary
+- [ ] Store logs of data w/ timestamp
+- [ ] Data visualization (tables and graphs)
+
+- [ ] 
+
