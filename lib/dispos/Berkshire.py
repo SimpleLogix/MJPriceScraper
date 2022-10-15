@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from lib.common import Product
+from lib.common import Product, price_to_float, weight_to_float
 
 # TODO: fix dpb
 # TODO: regex prices + weights
@@ -147,9 +147,9 @@ def parseProductElements(details_element, price_element):
         thc=info_text,
         prices = [
             {
-                "weight" : _weight,
-                "price" : _price,
-                "oldprice" : _oldprice,
+                "weight" : weight_to_float(_weight),
+                "price" : price_to_float(_price),
+                "oldprice" : price_to_float(_oldprice),
                 "discount" : _discount
             }
         ],
