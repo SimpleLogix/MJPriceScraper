@@ -1,6 +1,10 @@
 from selenium.webdriver.common.by import By
 from lib.common import Product
 
+# TODO: fix dpb
+# TODO: regex prices + weights
+# TODO: clean names
+
 # Scrapes URL and returns a list of products
 def scrapeBerkshire(driver, filter): #DONE: Add filter var
 
@@ -149,7 +153,7 @@ def parseProductElements(details_element, price_element):
                 "discount" : _discount
             }
         ],
-        dispo="Berkshire",
+        dispo="Berkshire Roots",
         dpg=0
     )
 
