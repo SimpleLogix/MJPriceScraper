@@ -26,7 +26,17 @@ If running this from Google Colab, logs will be stored under a folder in your go
 
 ## Roadmap
 
-- [x] Scrape products data
+- [ ] Scrape products data
+  - [X] Berkshire
+  - [x] Mission
+  - [ ] Sanctuary
+  - [ ] NETA
+  - [ ] Western Front
+  - [ ] MedMen
+  - [ ] Rise
+  - [ ] Happy Valley 
+  - [ ] Pure Oasis
+  - [ ] Ayr
 - [ ] Add deals from dispo home blurb
 - [ ] Clean names & Categorize (Wax, Sugar, Kief, Crumble, ...)
 - [ ] Add 1g version of .5g products
@@ -34,6 +44,4 @@ If running this from Google Colab, logs will be stored under a folder in your go
 - [ ] Add custom function for Sanctuary
 - [ ] Store logs of data w/ timestamp
 - [ ] Data visualization (tables and graphs)
-
-- [ ] 
 
