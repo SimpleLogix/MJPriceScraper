@@ -1,0 +1,22 @@
+{
+    "dispos" : {
+        "Berkshire Roots" : "https://dutchie.com/dispensary/berkshire-roots-east-boston",
+        "Mission Brookline" : "https://dutchie.com/dispensary/mission-brookline",
+        "NETA" : "https://dutchie.com/dispensary/neta-brookline",
+        "Western Front" : "https://dutchie.com/dispensary/western-front1",
+        "MedMen" : "https://dutchie.com/dispensary/medmen-fenway",
+        "Rise" : "https://dutchie.com/dispensary/greenstar-herbals-inc-chelsea",
+        "Happy Valley" : "https://dutchie.com/dispensary/happy-valley-east-boston",
+        "Pure Oasis" : "https://dutchie.com/dispensary/pure-oasis1",
+        "Ayr" : "https://dutchie.com/dispensary/ayr-dispensary-back-bay"
+    },
+    
+    "filters" : {
+        "Concentrate" : "/products/concentrates?sortby=pricelowtohigh",
+        "Flower" : "/products/flower?potencycbd=0%2C50&potencythc=0%2C50&sortby=pricelowtohigh",
+        "Carts" : "/products/vaporizers?sortby=pricelowtohigh"
+    }
+}
+
+
+
