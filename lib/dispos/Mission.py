@@ -9,7 +9,7 @@ from lib.common import Product, price_to_float, weight_to_float
 def scrapeMission(driver, filter): #DONE: Add filter var
 
     # Connect to URL
-    filterURL = "https://dutchie.com/dispensary/mission-brookline"+ filter
+    filterURL = "https://dutchie.com/dispensary/mission-brookline" + filter
 
     driver.get(filterURL)
     driver.implicitly_wait(1.5)

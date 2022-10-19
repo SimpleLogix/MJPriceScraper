@@ -1,10 +1,11 @@
 import re
 
 class Product:
-  def __init__(self, name, company, type, thc, prices, dispo, dpg):
+  def __init__(self, name, company, type, strain, thc, prices, dispo, dpg):
     self.name = name
     self.company = company
     self.type = type
+    self.strain = strain
     self.thc = thc
     self.prices = prices
     self.dispo = dispo
@@ -26,8 +27,8 @@ def price_to_float(str_price):
     return re.sub("\$", "", str_price)
 
 def weight_to_float(str_weight):
-    if "/" in str_weight: # fraction
+    if "oz" in str_weight: # fraction (oz)
         return oz_to_g(re.sub("[-oz ]", "", str_weight))
     else:
-        return float(re.sub("[-g ]", "", str_weight))
+        return float(re.sub("[-/g ]", "", str_weight))
 

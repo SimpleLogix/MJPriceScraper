@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from lib.common import Product, price_to_float, weight_to_float
 
 # TODO: fix dpb
-# TODO: regex prices + weights
+# TODO: regex prices + weights [DONE]
 # TODO: clean names
 
 # Scrapes URL and returns a list of products
@@ -13,7 +13,6 @@ def scrapeBerkshire(driver, filter): #DONE: Add filter var
 
     driver.get(filterURL)
     driver.implicitly_wait(1.5)
-    #time.sleep(5)
 
     # Age verification
     try:
